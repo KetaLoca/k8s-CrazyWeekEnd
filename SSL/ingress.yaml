@@ -15,7 +15,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: non-existent-service
+                name: portfolio-service
                 port:
                   number: 80
     - host: portfolio.jesuspb.dev
@@ -25,7 +25,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: non-non-existent-service
+                name: portfolio-service
                 port:
                   number: 80
     - host: crazyweekend570.jesuspb.dev
